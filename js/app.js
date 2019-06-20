@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const deleteText = document.createTextNode("Delete All");
       deleteButton.appendChild(deleteText);
       deleteButton.addEventListener("click", handleDeleteButton);
+      deleteButton.classList.add("delete");
       deleteButton.classList.add("btn");
       reading_List.appendChild(deleteButton);
     }
